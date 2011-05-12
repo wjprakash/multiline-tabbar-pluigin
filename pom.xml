@@ -26,21 +26,22 @@ THE SOFTWARE.
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     
+    <groupId>org.jvnet.hudson.plugins</groupId>
+    <artifactId>multiline-tabbar-plugin</artifactId>
+    <packaging>hpi</packaging>
+    <version>1.2-SNAPSHOT</version>
+    <name>Multiline TabBar Plugin</name>
+    <description>Provides a multi-line tabbar for views.</description>
+     
+
     <parent>
         <groupId>org.jvnet.hudson.plugins</groupId>
-        <artifactId>plugin</artifactId>
-        <version>1.381</version>
-        <relativePath>../pom.xml</relativePath>
+        <artifactId>hudson-plugin-parent</artifactId>
+        <version>2.0.0</version>
     </parent>
 
 
-    <artifactId>multiline-tabbar-plugin</artifactId>
-    <packaging>hpi</packaging>
-     <version>1.2-SNAPSHOT</version>
-    <name>Multiline Views TabBar Plugin</name>
-    <description>Provides a multi-line tab bar for views.</description>
-
-    <url>http://wiki.hudson-ci.org/display/HUDSON/Extension+Point+for+Project+Views+Navigation</url>
+    <url>http://wiki.hudson-ci.org/display/HUDSON/Multiline+Tabbar</url>
 
     <licenses>
         <license>
