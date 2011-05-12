@@ -1,0 +1,5 @@
+Hudson CI Plugin
+
+To create multiline-tabbar-plugin.hpi use
+
+mvn clean install
